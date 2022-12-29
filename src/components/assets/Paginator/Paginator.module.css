@@ -1,0 +1,37 @@
+.paginator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 75px;
+}
+.paginator button {
+  font-size: 20px;
+  color: #000;
+}
+.paginator .buttonControl {
+  border-color: #000;
+  margin: 0 30px;
+}
+.paginator .activeButton {
+  font-size: 28px;
+  pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .paginator button {
+    font-size: 13px;
+  }
+  .paginator .buttonControl {
+    margin: 0;
+  }
+  .paginator .activeButton {
+    font-size: 21px;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,23 @@
+.wrapper__state {
+  display: flex;
+  align-items: center;
+  margin: 0 0 12.5px 0;
+  .state__text {
+    width: 145px;
+    font-size: 20px;
+  }
+  .plenum_inner {
+    height: 20px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 0 0 0 8px;
+    border-radius: 16px;
+    overflow: hidden;
+    .plenum_progress {
+      width: 0;
+      height: 50px;
+      background-color: #000;
+    }
+  }
+}
+

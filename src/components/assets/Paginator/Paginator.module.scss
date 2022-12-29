@@ -1,0 +1,33 @@
+.paginator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  button {
+    font-size: 20px;
+    color: #000;
+  }
+  .buttonControl {
+    border-color: #000;
+    margin: 0 30px;
+  }
+  .activeButton {
+    font-size: 28px;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .paginator {
+    button {
+      font-size: 13px;
+    }
+    .buttonControl {
+      margin: 0;
+    }
+    .activeButton {
+        font-size: 21px;
+        pointer-events: none;
+      }
+  }
+}
